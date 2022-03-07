@@ -1,0 +1,174 @@
+nav ul {
+    list-style: none;
+}
+
+nav {
+    background-color: rgb(173, 74, 7);
+    height: 30px;
+}
+
+nav li {
+    float: right;
+    margin: 5px;
+}
+
+nav a, nav a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    background-color: white;
+    color: rgb(173, 74, 7);
+    transition: .5s;
+}
+
+body {
+    background-color: rgb(163, 82, 82);
+}
+
+#central-logo {
+    background-image: url(assets/headerbackground.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.MainFlexContainer {
+    display: flex;
+    align-content: flex-start;
+    justify-content: space-around;
+}
+
+#TrainsByType img {
+    width: 170px;
+    height: 170px;
+}
+
+#TrainsByType {
+    width: 20%;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#TrainsByType h1 {
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+}
+
+#TrainsByGauge h1 {
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+    width: 20em;
+    margin-left: 8em;
+}
+
+#TrainsByType button {
+    padding: 5px;
+    color: rgb(173, 74, 7);
+    background-color: white;
+    text-transform: uppercase;
+    border: 1px solid rgb(173, 74, 7);
+}
+
+#TrainsByType button:hover {
+    background-color: rgb(173, 74, 7);
+    color: white;
+}
+
+#TrainsByGauge button {
+    padding: 5px;
+    color: rgb(173, 74, 7);
+    background-color: white;
+    text-transform: uppercase;
+    border: 1px solid rgb(173, 74, 7);
+}
+
+#TrainsByGauge button:hover {
+    background-color: rgb(173, 74, 7);
+    color: white;
+}
+
+
+
+#RailsAndScenery {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    background-color: white;
+}
+
+#RailsAndScenery img {
+    width: justify;
+    height: 45em;
+    border-radius: 5px;
+}
+
+
+.scalePanel {
+    text-align: center;
+    width: 20em;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+
+#GaugeFlex {
+    display: flex;
+    text-align: center;
+    width: 70em;
+}
+
+#GaugeFlex2 {
+    display: flex;
+    align-content: center;
+    width: 70em;
+}
+
+#TrainsByGauge img {
+    width: 230px;
+    height: 230px;
+}
+
+
+.blog {
+   border: 1px solid black;
+   background-color: white;
+   border-radius: 5px;
+}
+
+.blog h1 {
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer li {
+    text-align: center;
+}
+
+#leftGScale {
+    margin-left: 5em;
+}
+
+#leftHOScale {
+    margin-left: 5em;
+}
+
+.trainType {
+    background-color: white;
+    border-radius: 5px;
+}
